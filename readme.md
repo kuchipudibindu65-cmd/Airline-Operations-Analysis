@@ -1,0 +1,83 @@
+✈️ Airline Flight Operations Analysis (SQL Project)
+
+📌 Project Overview  
+This project analyzes airline flight operations data to understand flight performance, delays, route traffic, and aircraft utilization using SQL. The goal is to gain operational insights that can help improve efficiency and planning.
+
+---
+
+🎯 Objectives  
+- Analyze flight status distribution (on-time, delayed, cancelled)  
+- Identify high-traffic flight routes  
+- Track monthly flight volume trends  
+- Understand aircraft usage patterns  
+
+---
+
+🗂 Dataset  
+Source: Airline Database (Skillovilla)
+
+Tables Used:  
+- flights  
+
+Key columns analyzed:  
+- scheduled_departure  
+- actual_departure  
+- departure_airport  
+- arrival_airport  
+- status  
+- aircraft_code  
+
+---
+
+🛠 Tools & Technologies  
+- SQL (PostgreSQL)  
+- Skillovilla SQL Playground  
+- GitHub  
+
+---
+
+🔍 Key Analysis & Queries  
+- Flight distribution by status  
+- Delayed vs on-time flights  
+- Most frequent routes  
+- Monthly flight trends  
+- Aircraft usage frequency  
+
+All SQL queries are available in the `Queries.sql` file.
+
+---
+
+📈 Key Insights  
+- Most flights are completed successfully, with some delays and cancellations  
+- Certain routes experience much higher traffic volumes  
+- Flight activity shows monthly variations indicating seasonality  
+- A few aircraft types dominate daily operations  
+
+Detailed insights are available in `INSIGHTS.md`.
+
+---
+
+📂 Project Structure  
+
+Airline-Data-Analysis/  
+│── README.md  
+│── Queries.sql  
+│── Insights.md  
+
+---
+
+🚀 How to Use  
+
+1. Load the airline database into a SQL environment  
+2. Run queries from `Queries.sql`  
+3. Review business insights in `INSIGHTS.md`  
+
+---
+
+👩‍💻 Author  
+
+Bindu Kuchipudi  
+Aspiring Data Analyst | SQL | Excel | Power BI  
+
+GitHub: https://github.com/kuchipudibindu65-cmd  
+LinkedIn: https://www.linkedin.com/in/kuchipudi-bindu-b4b76220b/
